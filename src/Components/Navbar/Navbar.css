@@ -1,0 +1,53 @@
+nav{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 6vh 3vw;
+    
+}
+
+.logo{
+   height: 3rem;
+   width: auto;
+   text-align: center;
+   display: flex;
+   overflow: hidden;
+   background: transparent;
+}
+
+.logo-text{
+   font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #646468;
+  white-space: nowrap;
+  font-family: cursive;
+  background: transparent;
+  text-shadow: 1px 1px 2px black;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+    color: rgb(189, 92, 92);
+    cursor: pointer;
+    font-weight: 700;
+    background: transparent;
+}
+
+ul li{
+    background: transparent;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+li:hover{
+    color: black;
+}
