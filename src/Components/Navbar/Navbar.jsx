@@ -9,7 +9,7 @@ function Navbar() {
     viewport={{once:true}}>
          {/* Logo */}
       <div className="logo">
-       <span className="logo-text">Puja Dey</span>
+       <span className="logo-text"> <Link to="/">Puja Dey</Link></span>
       </div>
 
       {/* side nav */}

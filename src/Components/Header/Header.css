@@ -37,14 +37,15 @@ header{
     font-size: 3rem;
     font-weight: 500;
     font-family:fantasy;
-    color: rgb(56, 58, 65);
-    text-shadow: 1px 1px 1px rgb(14, 12, 12);
+    color: rgb(105, 28, 22);
+    text-shadow: 1px 1px 4px rgb(39, 36, 36);
 }
 .hero-content p{
-    color: rgb(61, 50, 50);
+    color: rgb(138, 5, 5);
     font-weight: 300;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 18px;
 
 }
 
