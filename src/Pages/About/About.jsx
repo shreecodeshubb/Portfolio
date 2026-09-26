@@ -2,8 +2,8 @@ import "./About.css"
 import { motion } from "motion/react"
 function About() {
   return (
-    <motion.div className="about-main"    initial={{opacity:0, x:-100}}
-    whileInView={{opacity:1, x:0}}
+    <motion.div className="about-main"    initial={{opacity:0, scale:1}}
+    whileInView={{opacity:1, x:0 , scale:1.1}}
     transition={{duration:1.5, ease:"easeOut"}}
     viewport={{amount: 0.3}}>
         

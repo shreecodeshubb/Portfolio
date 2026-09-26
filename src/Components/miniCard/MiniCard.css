@@ -20,6 +20,7 @@ background: linear-gradient(190deg, rgba(230, 219, 193, 1) 0%, rgba(163, 130, 96
      box-shadow: 1px 0px 10px rgb(167, 134, 134);
     background: #7c7572;
 background: linear-gradient(347deg, rgb(119, 114, 112) 31%, rgba(184, 184, 160, 1) 100%);
+scale: 1.1;
 }
 
 .minicard-img{
