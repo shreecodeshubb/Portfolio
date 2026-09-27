@@ -55,7 +55,7 @@ li:hover{
 
 
 
-@media (max-width: 780px) {
+@media (min-width: 250px) and (max-width: 540px) {
   nav {
      height: 20px;
     width: 100%;
@@ -63,6 +63,47 @@ li:hover{
     align-items: center;
     justify-content: space-between;
     background: transparent;
-    padding: 6vh 2vw;
+    padding: 4vh 2vw;
   }
+  .logo{
+   height: 1.5rem;
+   width: auto;
+   text-align: center;
+   display: flex;
+   overflow: hidden;
+   background: transparent;
+   cursor: pointer;
 }
+   .logo-text {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+    }
+
+
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    list-style-type: none;
+    color: rgb(189, 92, 92);
+    cursor: pointer;
+    font-weight: 700;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+
+}
+
+    ul li {
+        background: transparent;
+        font-size: 12px;
+        text-shadow: 1px 1px 2px black;
+    }
+}
+
+
+
+

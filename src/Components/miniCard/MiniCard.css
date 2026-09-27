@@ -44,3 +44,48 @@ scale: 1.1;
     font-weight: 400;
     text-shadow: 1px 1px 1px black;
 }
+
+
+@media (min-width: 250px) and (max-width: 700px) {
+
+    .minicard-main {
+        height: 9rem;
+        width: 9.5rem;
+        padding: 0.4rem;
+        gap: 6px;
+        margin: 0.5rem 0.2rem;
+        border-radius: 5px;
+        box-shadow: 1px 0px 8px rgb(167, 134, 134);
+        box-sizing: border-box;
+    }
+
+    .minicard-main:hover {
+        scale: 1.05;
+    }
+
+    .minicard-img {
+        height: 6.2rem;
+        width: 6.2rem;
+        box-shadow: 1px 1px 4px gray;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .minicard-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .minicard-text {
+        height: auto;
+        width: 90%;
+        text-align: center;
+        color: rgb(110, 74, 74);
+        font-size: 1rem;
+        font-weight: 400;
+        text-shadow: 1px 1px 1px black;
+        margin: 0;
+    }
+}

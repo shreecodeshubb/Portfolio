@@ -58,3 +58,76 @@ h1{
     padding-left: 1rem;
     
 }
+
+
+@media (min-width: 250px) and (max-width: 700px) {
+
+    .footer-main {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 2rem 1rem;
+        gap: 2rem;
+        margin-bottom: 1rem;
+
+        box-sizing: border-box;
+    }
+
+    .info-div {
+        width: 100%;
+        height: auto;
+        flex: none;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 0.7rem;
+        padding: 1rem 0;
+
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .pages-div {
+        width: 100%;
+        height: auto;
+        flex: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.7rem;
+        padding: 1rem 0;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .about-div {
+        width: 100%;
+        height: auto;
+        flex: none;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 0.7rem;
+        padding: 1rem 0;
+
+        text-align: center;
+    }
+
+    .footer-main h1 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+}
