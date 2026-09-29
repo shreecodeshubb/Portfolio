@@ -14,7 +14,7 @@ function About() {
 
             <p>
 
-I’m a passionate Full Stack Web Developer focused on building modern, responsive, and scalable web applications. I specialize in the MERN stack (MongoDB, Express.js, React.js, and Node.js) and have a strong interest in creating interactive and real-world web solutions.
+I’m a passionate Full Stack Developer focused on building modern, responsive, and scalable web applications. I specialize in the MERN stack (MongoDB, Express.js, React.js, and Node.js) and have a strong interest in creating interactive and real-world web solutions.
 
 Along with the MERN stack, I have learned and worked with TypeScript, Next.js, JavaScript, REST APIs, MongoDB, Socket.IO, and modern frontend development practices. I’m comfortable working across both frontend and backend, from designing responsive user interfaces to developing APIs, authentication systems, database operations, and real-time features.
 
