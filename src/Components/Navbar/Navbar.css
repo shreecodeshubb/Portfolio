@@ -1,3 +1,7 @@
+@import url("https://api.fontshare.com/v2/css?f[]=telma@400&display=swap");
+
+
+
 nav{
     height: 30px;
     width: 100%;
@@ -17,6 +21,8 @@ nav{
    overflow: hidden;
    background: transparent;
    cursor: pointer;
+   border-radius: 50%;
+   box-shadow: 1px 1px 4px rgb(29, 27, 27);
 }
 
 .logo-text{
@@ -25,7 +31,7 @@ nav{
   letter-spacing: 1px;
   color: #646468;
   white-space: nowrap;
-  font-family: cursive;
+  font-family: "telma", serif;
   background: transparent;
   text-shadow: 1px 1px 2px black;
 }
@@ -38,7 +44,7 @@ ul{
     list-style-type: none;
     color: rgb(189, 92, 92);
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 400;
     background: transparent;
 }
 
@@ -90,7 +96,7 @@ ul{
     list-style-type: none;
     color: rgb(189, 92, 92);
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 400;
     background: transparent;
     padding: 0;
     margin: 0;

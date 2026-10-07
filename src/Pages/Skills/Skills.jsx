@@ -6,6 +6,8 @@ import nextIcon from "../../assets/next-icon.jpg"
 import mongoIcon from "../../assets/mongodb-icon.jpg"
 import expressIcon from "../../assets/express-icon.jpg"
 import htmlIcon from "../../assets/html-icon.jpg"
+import dockerIcon from "../../assets/Docker-icon.jpg"
+import MicroIcon from "../../assets/MicroS-icon.jpg"
 import jsIcon from "../../assets/js-icon.jpg"
 import cssIcon from "../../assets/css-icon.jpg"
 import { motion } from "motion/react";
@@ -22,10 +24,31 @@ function Skills() {
     viewport={{amount: 0.3}}>
 
       
-<h1>My Skills</h1>
+<h1 className="highlight">Tech Stacks</h1>
 
 
         <div className="min-h-full   w-[70vw] flex flex-wrap gap-3.5 justify-center ">
+          
+           <MiniCard 
+          
+          skill={{
+            img: dockerIcon,
+            text: "Docker"
+          }}
+          
+          />
+          
+ <MiniCard 
+          
+          skill={{
+            img: MicroIcon,
+            text: "Microservices"
+          }}
+          
+          />
+
+
+          
           <MiniCard 
           
           skill={{
@@ -34,7 +57,7 @@ function Skills() {
           }}
           
           />
-
+        
            <MiniCard 
           
           skill={{
@@ -88,6 +111,15 @@ function Skills() {
           skill={{
             img: cssIcon,
             text: "CSS"
+          }}
+          
+          />
+
+          <MiniCard 
+          
+          skill={{
+            img: jsIcon,
+            text: "JavaScript"
           }}
           
           />

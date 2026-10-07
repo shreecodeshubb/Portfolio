@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="footer-main">
         <div className="info-div">
-             <div className="logo">
+             <div>
        <span className="logo-text"> <Link to="/">Puja Dey</Link></span>
       </div>
             <div className="flex items-center justify-between"> 

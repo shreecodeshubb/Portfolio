@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import {Link} from 'react-router-dom';
 import { motion } from "motion/react";
+import logo from "../../assets/Pro-pic.jpg"
 function Navbar() {
   return (
     <motion.nav initial={{opacity:0, y:-100}}
@@ -9,7 +10,8 @@ function Navbar() {
     viewport={{once:true}}>
          {/* Logo */}
       <div className="logo">
-       <span className="logo-text"> <Link to="/">Puja Dey</Link></span>
+       {/* <span className="logo-text"> <Link to="/">Puja Dey</Link></span> */}
+       <img src={logo} alt="logo" />
       </div>
 
       {/* side nav */}

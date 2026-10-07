@@ -1,3 +1,6 @@
+@import url("https://api.fontshare.com/v2/css?f[]=sharpie@400&display=swap");
+
+
 header{
     height: 85vh;
     /* border: 1px solid  black; */
@@ -35,19 +38,38 @@ header{
 }
 .hero-content h1{
     font-size: 3rem;
-    font-weight: 500;
-    font-family:fantasy;
-    color: rgb(105, 28, 22);
-    text-shadow: 1px 1px 4px rgb(39, 36, 36);
+    font-weight: 900;
+    font-family:"sharpie", sans-serif;
+    color: rgb(49, 48, 48);
+    text-shadow: 1px 1px 4px rgb(199, 191, 191);
 }
 .hero-content p{
-    color: rgb(138, 5, 5);
+    color: rgb(54, 49, 49);
     font-weight: 300;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Times, serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
 
 }
+
+.highlight {
+  position: relative;
+  display: inline-block;
+  color: rgb(96, 52, 133);
+}
+
+.highlight::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ff6b6b, #845ec2);
+}
+
+
 
 .hero-btn{
     padding: 1rem 4rem;
@@ -55,8 +77,10 @@ header{
      box-shadow: 0 0 10px #853650;
   transition: 0.3s ease;
     border-radius: 20px;
+    font-weight: 800;
     cursor: pointer;
-    color: white;
+    color: rgb(226, 215, 215);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hero-btn:hover{
